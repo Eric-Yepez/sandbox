@@ -9,6 +9,6 @@ public class Driver {
     public static void main(String[] args) {
 
         List<String> myList = new ArrayList<>();
-        Aggregation agg = new Aggregation(myList, new HashSet<>(), newLinkedList<>(), "Eric");
+        Aggregation agg = new Aggregation(myList, new HashSet<>(), new LinkedList<>(), "Eric");
     }
 }
